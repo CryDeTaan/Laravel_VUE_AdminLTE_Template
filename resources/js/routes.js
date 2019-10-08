@@ -14,6 +14,8 @@ let routes = [
 
 
 export default new VueRouter({
+    base: '/admin/',
+    mode: 'history',
     routes,
     linkActiveClass: 'active'
 });
